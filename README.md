@@ -12,4 +12,4 @@ https://github.com/shaik8811/FocusBoard
 ![Desktop Screenshot](screenshots/desktop.png)
 
 ### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
+![Mobile Screenshot](screenshots/mobile.png)gi
