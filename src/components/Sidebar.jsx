@@ -1,0 +1,2 @@
+import "./Sidebar.css";
+export default function Sidebar({onNavigate}) { return <aside className="sidebar"><h2>✦ FocusBoard</h2><nav aria-label="Main navigation"><p>MENU</p><ul><li><button onClick={()=>onNavigate("dashboard")}>🏠 Dashboard</button></li><li><button onClick={()=>onNavigate("tasks")}>📋 My Tasks</button></li><li><button onClick={()=>onNavigate("important")}>⭐ Important</button></li></ul></nav></aside>; }

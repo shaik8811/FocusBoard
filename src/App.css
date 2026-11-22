@@ -1,0 +1,14 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  background-color: #f8fafc;
+}
+html { scroll-behavior:smooth; }
+@media(max-width: 1024px){ .sidebar{width:200px;padding:20px;} }
+@media(max-width: 768px){ .app-layout{display:block;} .sidebar{width:100%;height:auto;padding:14px 18px;} .sidebar h2{margin-bottom:12px;} .sidebar nav p{display:none;} .sidebar ul{display:flex;flex-wrap:wrap;gap:8px;} .sidebar li{padding:0;margin:0;} .header{padding:20px 16px;flex-wrap:wrap;gap:16px;} .header-right{width:100%;justify-content:space-between;} .header-right input{min-width:0;flex:1;} .create-task,.focus-notes{margin:16px;} }
+@media(max-width: 480px){ .header h1{font-size:26px;} .header-right{gap:8px;} .header-right span{font-size:12px;} .form-grid{grid-template-columns:1fr;} .task-card-bottom{align-items:flex-start;flex-direction:column;} .focus-note-card{padding:20px;} }

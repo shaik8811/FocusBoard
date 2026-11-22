@@ -1,0 +1,78 @@
+
+.focus-notes {
+  margin: 25px 35px;
+}
+
+.focus-notes-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.focus-notes-heading h2 {
+  font-size: 22px;
+  color: #1e293b;
+}
+
+.focus-notes-heading span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.focus-note-card {
+  background: linear-gradient(135deg, #6d5dfc, #8b5cf6);
+  padding: 30px;
+  border-radius: 14px;
+  color: white;
+}
+
+.focus-note-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.focus-note-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.focus-note-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.focus-note-controls button {
+  padding: 10px 18px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.focus-note-controls button:hover {
+  background: white;
+  color: #6d5dfc;
+}
+
+.focus-note-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.focus-note-dots button {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+
+.focus-note-dots button.selected-dot {
+  background: #6d5dfc;
+}
